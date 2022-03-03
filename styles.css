@@ -9,15 +9,34 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     gap:2rem;
+    height: 33%;
 
 }
-nav{
+.header-img{
+   width: 50%;
+}
+.header-logo{
+    font-size: 1.3rem;
+
+}
+
+.header-logo, .navbar{
+    width: 50%;
+}
+.navbar{
+    text-align: right;
+}
+header nav,.header-title{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width:100%;
+    margin: 2rem 15rem;
+    column-gap: 2rem;
 }
 
-header-title{
-    display: flex;
-    justify-content: space-around;
+
+.header-text{
+
+   width: 50%;
+
 }
