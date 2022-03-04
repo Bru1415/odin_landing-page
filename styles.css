@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    /* border: 1px solid #F9FAFB; */
 }
 
 header{
@@ -10,27 +11,42 @@ header{
     justify-content: center;
     gap:2rem;
     height: 33%;
+    background-color: #1F2937;
+    color:#F9FAFB;
 
 }
 .header-img{
    width: 50%;
 }
 .header-logo{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    font-weight: bold;
 
+}
+
+h1{
+    font-weight: bold;
+    font-size: 4rem;
 }
 
 .header-logo, .navbar{
     width: 50%;
 }
+
+.navbar a{
+    margin-left: 1.5rem;
+    color:#F9FAFB;
+    font-size: 1.4rem;
+}
 .navbar{
     text-align: right;
+    
 }
 header nav,.header-title{
     display: flex;
     justify-content: space-between;
     width:100%;
-    margin: 2rem 15rem;
+    margin: 2rem 15%;
     column-gap: 2rem;
 }
 
