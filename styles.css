@@ -8,7 +8,8 @@ header{
 
     /* height: 50%; */
     background-color: #1F2937;
-    margin-bottom: 4rem;
+    padding-bottom:40px ;
+    /* margin-bottom: 2rem; */
 
 
 }
@@ -34,16 +35,16 @@ header{
 
     object-fit: scale-down;
     /* width: minmax(100px,200px); */
-    max-width: 100%;
+    max-width: 75%;
     /* height: 66%; */
     display: block;
    float: right;
-   position: relative;
+   /* position: relative; */
 
 }
 
 .header-text button{
-    margin-top: 1rem;
+    margin-top: 3rem;
     font-size: 1rem;
     padding: 0.4rem 1.7rem;
     background-color:#3B82F6;
@@ -96,6 +97,28 @@ header nav,.header-title{
 
 .header-text > p{
 
-    font-size: 2rem;
+    font-size: 1.8rem;
+
+}
+
+.main-info{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+.main-info h2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+.main-info img{
+
+    width: 25%;
+    height: auto;
 
 }
