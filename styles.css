@@ -136,6 +136,7 @@ header nav,
 
     width: 200px;
     height: auto;
+    margin-bottom: 3rem;
 
 }
 
@@ -145,7 +146,7 @@ header nav,
     height: 200px;
     object-fit:contain;
     border-radius: 15px;
-    border: 0.3rem solid blue;
+    border: 0.3rem solid #3B82F6;
 
 }
 
@@ -163,10 +164,59 @@ header nav,
 }
 .main-quote p{
     word-wrap: break-word;
-    font: 36px light italic;
+    font: 36px lighter italic;
     text-align: center;
     width: 66%;
     margin:auto;
     padding: 10rem 2rem;
 
+}
+
+.main-sign div{
+    background-color: #3B82F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+    width: 66vw;
+    height: auto;
+    border-radius: 10px;
+   
+}
+
+.main-sign button{
+    text-align: center;
+    /* margin: auto; */
+padding: 0.5rem 2rem;
+border-radius: 5px;
+border: 2px solid white;
+background-color: #3B82F6;
+color: #F9FAFB;
+
+
+}
+.button-wrap{
+    /* padding-right: 1rem; */
+    width: auto;
+    padding-right: 9rem;
+    display: flex;
+flex-direction: row-reverse;   
+
+    
+
+
+}
+
+.main-sign p{
+    /* margin: auto; */
+    min-width: 66%;
+    padding-left:9rem;
+    color: #F9FAFB;
+    
+}
+.main-sign span{
+    font-size: 22px;
+    font-weight:bolder;
+    color: #F9FAFB;
+    line-height: 2rem;
 }
